@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main() {
+int n1,n2,tem;
+cin>>n1>>n2;
+tem=n1;
+n1=n2;
+n2=tem;
+cout<<n1<<endl<<n2;
+    return 0;
+}
