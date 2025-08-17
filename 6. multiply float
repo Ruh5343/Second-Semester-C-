@@ -1,0 +1,7 @@
+#include <iostream>
+using namespace std;
+int main() {
+float a=2.55, b=1000.00;
+cout<<a*b<<endl;
+    return 0;
+}
