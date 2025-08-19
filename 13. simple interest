@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() {
+    double P, R, T, I;
+    cout<<"P: ";
+    cin>>P;
+    cout<<"R: ";
+    cin>>R;
+    cout<<"T: ";
+    cin>>T;
+    I = (P * R * T) / 100;
+    cout<<"I = "<<I<< endl;
+    return 0;
+}
