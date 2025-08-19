@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+    double p,r,t,ci,a;
+    cout<<"P: ";
+    cin>>p;
+    cout<<"R: ";
+    cin>>r;
+    cout<<"T: ";
+    cin>>t;
+    a = p*pow(1+r/100,t);
+    ci = a-p;
+    cout<<"CI = "<<ci<< endl;
+    return 0;
+}
