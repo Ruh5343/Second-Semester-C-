@@ -7,6 +7,6 @@ usint main(){
     }
     cout<<"Sum="<<sum<<endl;
     return 0;
-}ing namespace std;
+}
 
 
