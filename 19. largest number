@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main(){
+int a,b,c;
+cin>>a>>b>>c;
+if(a>b&&a>c){
+    cout<<"largest is "<<a;
+}
+if(b>a&&b>c){
+    cout<<"largest is "<<b;
+}
+if(c>b&&c>a){
+    cout<<"largest is "<<c;
+}
+
+return 0;
+}
