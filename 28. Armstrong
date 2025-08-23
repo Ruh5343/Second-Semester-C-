@@ -1,0 +1,19 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+int n, sum=0, temp, digit;
+cin>>n;
+temp=n; //so, we won't destroy the original number
+while (temp>0){
+    digit=temp%10;
+    sum+=digit*digit*digit;
+    temp/=10;
+}
+if(sum==n){
+    cout<<n<<"is an armstrong number";
+}else{
+    cout<<n<<"is not an armstrong number";
+}
+return 0;
+}
