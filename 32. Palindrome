@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num, digit, reverse=0;
+    cin >> num; //1234
+
+    for (int i=num;i!=0;i=i/10){ //(i=1234)(0=i/10)(123=1234/10)
+        int digit=i%10; //1234%10=4
+         reverse=reverse*10+digit;
+    }
+
+    if(num==reverse){
+        cout<<num<< " is Palindrome";
+    }else{
+    cout<<num<<" is not Palindrome";
+    }
+    return 0;
+}
