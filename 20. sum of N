@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 usint main(){
     int n,sum=0;
     cin>>n;
