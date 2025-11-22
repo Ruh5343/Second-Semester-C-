@@ -1,25 +1,17 @@
 #include <iostream>
 using namespace std;
-int main(){
-int a,b;
-char op;
-cin>>a;
-cin>>op;
-cin>>b;
-if(op=='+'){
-    cout<<a+b;
-}
-if(op=='-'){
-    cout<<a-b;
-}
-if(op=='*'){
-    cout<<a*b;
-}
-if(op=='/'){
-        if(b!=0){
-    cout<<a/b;}else{
-    cout<<"Error";
+
+int main() {
+    int n;
+
+    cout << "Enter a number: ";
+    cin >> n;
+
+    cout << "Multiplication table of " << n << ":\n";
+
+    for (int i = 1; i <= 10; i++) {
+        cout << n << " x " << i << " = " << n * i << endl;
     }
-}
-return 0;
+
+    return 0;
 }
