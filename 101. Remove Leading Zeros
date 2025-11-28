@@ -1,0 +1,24 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    string s;
+    cin >> s;
+
+    int i = 0;
+
+    // skip all leading zeros
+    while(i < s.length() && s[i] == '0')
+        i++;
+
+    // if string becomes empty, number is 0
+    if(i == s.length()){
+        cout << "0";
+    }
+    else{
+        cout << s.substr(i);
+    }
+
+    return 0;
+}
