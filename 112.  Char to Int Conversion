@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    char c;
+    cin >> c;
+
+    int n = c - '0';  // Subtract ASCII value of '0'
+
+    cout << n;
+    return 0;
+}
