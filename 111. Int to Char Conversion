@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+
+    char c = (char)n;
+
+    cout << c;
+    return 0;
+}
